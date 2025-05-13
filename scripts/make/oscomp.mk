@@ -1,8 +1,9 @@
 # Command to build and run testcases for oscomp
 
 oscomp_binary: ax_root defconfig
-	@cp -r $(PWD)/bin/* /root/.cargo/bin
-	@make -C $(AX_ROOT) A=$(PWD) EXTRA_CONFIG=$(EXTRA_CONFIG) build
+	@cp -r $(PWD)/bin/* ~/.cargo/bin
+	@rustup override set nightly-2025-01-18
+	@make -C $(AX_ROOT) A=$(PWD) EXTRA_CONFIG=$(EXTRA_CONFIG) BLK=y build
 	@if [ "$(ARCH)" = "riscv64" ]; then \
 		cp $(OUT_BIN) kernel-rv; \
 	else \
@@ -12,7 +13,7 @@ oscomp_binary: ax_root defconfig
 oscomp_build:
 	# Build for os competition
 	RUSTUP_TOOLCHAIN=nightly-2025-01-18 $(MAKE) oscomp_binary ARCH=riscv64 AX_TESTCASE=oscomp BUS=mmio FEATURES=lwext4_rs 
-	RUSTUP_TOOLCHAIN=nightly-2025-01-18 $(MAKE) oscomp_binary ARCH=loongarch64 AX_TESTCASE=oscomp FEATURES=lwext4_rs
+	# RUSTUP_TOOLCHAIN=nightly-2025-01-18 $(MAKE) oscomp_binary ARCH=loongarch64 AX_TESTCASE=oscomp FEATURES=lwext4_rs
 
 oscomp_test: defconfig
 	# Test for os competition online
@@ -30,6 +31,6 @@ endef
 
 oscomp_run: ax_root defconfig
 	$(call load_img)
-	$(MAKE) AX_TESTCASE=oscomp BLK=y NET=y FEATURES=fp_simd,lwext4_rs LOG=off run
+	$(MAKE) AX_TESTCASE=oscomp BLK=y NET=y FEATURES=fp_simd,lwext4_rs LOG=info run
 
 .PHONY: oscomp_binary oscomp_build oscomp_test oscomp_run

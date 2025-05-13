@@ -1,18 +1,18 @@
-Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/.arceos
-make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/arceos
+make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [93;1mwarning[0m: disk image "disk.img" already exists!
-make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
-make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
+make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [37maxconfig-gen[0m [90mconfigs/defconfig.toml configs/platforms/riscv64-qemu-virt.toml /home/rin/oscomp/oscomp-test-lastautumnalon/configs/riscv64.toml -w smp=1 -w arch=riscv64 -w platform=riscv64-qemu-virt -o "/home/rin/oscomp/oscomp-test-lastautumnalon/.axconfig.toml"[0m
-make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
-cp /home/rin/oscomp/oscomp-test-lastautumnalon/sdcard-riscv64.img /home/rin/oscomp/oscomp-test-lastautumnalon/.arceos/disk.img
+make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
+cp /home/rin/oscomp/oscomp-test-lastautumnalon/sdcard-riscv64.img /home/rin/oscomp/oscomp-test-lastautumnalon/arceos/disk.img
 make AX_TESTCASE=oscomp BLK=y NET=y FEATURES=fp_simd,lwext4_rs LOG=off run
 make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon'
-Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/.arceos
-make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/arceos
+make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [93;1mwarning[0m: disk image "disk.img" already exists!
-make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
-make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
+make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [37maxconfig-gen[0m [90mconfigs/defconfig.toml configs/platforms/riscv64-qemu-virt.toml /home/rin/oscomp/oscomp-test-lastautumnalon/configs/riscv64.toml -w smp=1 -w arch=riscv64 -w platform=riscv64-qemu-virt -o "/home/rin/oscomp/oscomp-test-lastautumnalon/.axconfig.toml" -c "/home/rin/oscomp/oscomp-test-lastautumnalon/.axconfig.toml"[0m
     [92;1mBuilding[0m App: oscomp-test-lastautumnalon, Arch: riscv64, Platform: riscv64-qemu-virt, App type: rust
 [37mcargo -C /home/rin/oscomp/oscomp-test-lastautumnalon build[0m [90m-Z unstable-options --target riscv64gc-unknown-none-elf --target-dir /home/rin/oscomp/oscomp-test-lastautumnalon/target --release  --features "axfeat/log-level-off axfeat/fp_simd axfeat/lwext4_rs"[0m
@@ -97,23 +97,23 @@ build_mode = release
 log_level = off
 smp = 1
 
-make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon'
-Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/.arceos
-make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/arceos
+make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [93;1mwarning[0m: disk image "disk.img" already exists!
-make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
-make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
+make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [37maxconfig-gen[0m [90mconfigs/defconfig.toml configs/platforms/riscv64-qemu-virt.toml /home/rin/oscomp/oscomp-test-lastautumnalon/configs/riscv64.toml -w smp=1 -w arch=riscv64 -w platform=riscv64-qemu-virt -o "/home/rin/oscomp/oscomp-test-lastautumnalon/.axconfig.toml"[0m
-make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
-cp /home/rin/oscomp/oscomp-test-lastautumnalon/sdcard-riscv64.img /home/rin/oscomp/oscomp-test-lastautumnalon/.arceos/disk.img
+make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
+cp /home/rin/oscomp/oscomp-test-lastautumnalon/sdcard-riscv64.img /home/rin/oscomp/oscomp-test-lastautumnalon/arceos/disk.img
 make AX_TESTCASE=oscomp BLK=y NET=y FEATURES=fp_simd,lwext4_rs LOG=off run
 make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon'
-Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/.arceos
-make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/arceos
+make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [93;1mwarning[0m: disk image "disk.img" already exists!
-make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
-make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
+make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [37maxconfig-gen[0m [90mconfigs/defconfig.toml configs/platforms/riscv64-qemu-virt.toml /home/rin/oscomp/oscomp-test-lastautumnalon/configs/riscv64.toml -w smp=1 -w arch=riscv64 -w platform=riscv64-qemu-virt -o "/home/rin/oscomp/oscomp-test-lastautumnalon/.axconfig.toml" -c "/home/rin/oscomp/oscomp-test-lastautumnalon/.axconfig.toml"[0m
     [92;1mBuilding[0m App: oscomp-test-lastautumnalon, Arch: riscv64, Platform: riscv64-qemu-virt, App type: rust
 [37mcargo -C /home/rin/oscomp/oscomp-test-lastautumnalon build[0m [90m-Z unstable-options --target riscv64gc-unknown-none-elf --target-dir /home/rin/oscomp/oscomp-test-lastautumnalon/target --release  --features "axfeat/log-level-off axfeat/fp_simd axfeat/lwext4_rs"[0m
@@ -198,24 +198,24 @@ build_mode = release
 log_level = off
 smp = 1
 
-make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon'
-Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/.arceos
-make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/arceos
+make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
     [92;1mCreating[0m FAT32 disk image "disk.img" ...
 mkfs.fat 4.2 (2021-01-31)
-make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
-make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
+make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [37maxconfig-gen[0m [90mconfigs/defconfig.toml configs/platforms/riscv64-qemu-virt.toml /home/rin/oscomp/oscomp-test-lastautumnalon/configs/riscv64.toml -w smp=1 -w arch=riscv64 -w platform=riscv64-qemu-virt -o "/home/rin/oscomp/oscomp-test-lastautumnalon/.axconfig.toml"[0m
-make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
-cp /home/rin/oscomp/oscomp-test-lastautumnalon/sdcard-riscv64.img /home/rin/oscomp/oscomp-test-lastautumnalon/.arceos/disk.img
+make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
+cp /home/rin/oscomp/oscomp-test-lastautumnalon/sdcard-riscv64.img /home/rin/oscomp/oscomp-test-lastautumnalon/arceos/disk.img
 make AX_TESTCASE=oscomp BLK=y NET=y FEATURES=fp_simd,lwext4_rs LOG=off run
 make[1]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon'
-Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/.arceos
-make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+Set AX_ROOT (ArceOS directory) to /home/rin/oscomp/oscomp-test-lastautumnalon/arceos
+make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [93;1mwarning[0m: disk image "disk.img" already exists!
-make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
-make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
+make[2]: Entering directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 [37maxconfig-gen[0m [90mconfigs/defconfig.toml configs/platforms/riscv64-qemu-virt.toml /home/rin/oscomp/oscomp-test-lastautumnalon/configs/riscv64.toml -w smp=1 -w arch=riscv64 -w platform=riscv64-qemu-virt -o "/home/rin/oscomp/oscomp-test-lastautumnalon/.axconfig.toml" -c "/home/rin/oscomp/oscomp-test-lastautumnalon/.axconfig.toml"[0m
     [92;1mBuilding[0m App: oscomp-test-lastautumnalon, Arch: riscv64, Platform: riscv64-qemu-virt, App type: rust
 [37mcargo -C /home/rin/oscomp/oscomp-test-lastautumnalon build[0m [90m-Z unstable-options --target riscv64gc-unknown-none-elf --target-dir /home/rin/oscomp/oscomp-test-lastautumnalon/target --release  --features "axfeat/log-level-off axfeat/fp_simd axfeat/lwext4_rs"[0m
@@ -300,5 +300,5 @@ build_mode = release
 log_level = off
 smp = 1
 
-make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/.arceos'
+make[2]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon/arceos'
 make[1]: Leaving directory '/home/rin/oscomp/oscomp-test-lastautumnalon'
